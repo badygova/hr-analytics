@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>cf608508-4496-4c55-b7ec-f1814f6e8df1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="676.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.migrations</node>
+    <node x="57.5" y="179.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.employees</node>
+    <node x="680.0" y="0.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.failed_jobs</node>
+    <node x="236.0" y="676.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.password_resets</node>
+    <node x="388.0" y="0.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.users</node>
+    <node x="75.0" y="0.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.teams</node>
+    <node x="0.0" y="430.0">cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.reports</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.reports" target="cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.employees">
+      <point x="0.0" y="-100.5" />
+      <point x="0.0" y="100.5" />
+    </edge>
+    <edge source="cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.employees" target="cf608508-4496-4c55-b7ec-f1814f6e8df1.TABLE:hr.teams">
+      <point x="0.0" y="-100.5" />
+      <point x="0.0" y="64.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8664169787765293" x="431.5" y="390.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
